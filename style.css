@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+/* +++++++++++++++ CONTAINER +++++++++++++++++++++ */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000, #fcc2f4);
+    color: #fff;
+    padding-top: 10px;
+}
+
+/* +++++++++++++++++ CALCULATOR +++++++++++++++++++ */
+.calculator{
+    width: 100%;
+    max-width: 700px;
+    margin-left: 10%;
+    /* margin-top: 10%; */
+    /* padding-top: 10%; */
+}
+
+
+.calculator h1{
+    font-size: 60px;
+    padding-top: 8%;
+}
+.calculator h1 span{
+    color: #f8f802;
+
+}
+
+/* +++++++++++++++++ INPUT-BOX ++++++++++++++++++++ */
+.input-box{
+    /* margin: 40px 0; */
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(2, 2, 2, 0.3);
+    backdrop-filter:blur(10px);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(250, 246, 246);
+    font-size: 30px;
+
+}
+
+/* ++++++++++++++++ BUTTON +++++++++++++++++++++ */
+.input-box button{
+    background: #f8f802;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/* +++++++++++++++++++ CALENDAR +++++++++++++++++++++ */
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+/* +++++++++++++++++++++ RESULT ++++++++++++++++++++++ */
+#result{
+    font-size: 170%;
+    padding-top: 5%;
+}
+#result span{
+    color: #f8f802;   
+}
+.container img{
+    font-size: 30%;
+    margin-left: 90%;
+   
+   
+    
+    
+}
+
+
+/* +++++++++++++++++++++ CSS WORK END +++++++++++++++++++ */
